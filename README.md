@@ -40,7 +40,7 @@ Before you begin, make sure you have the following requirements and dependencies
 ## API Endpoints
 
 ### Create
-- Endpoint `https://xxxxxxxxxxx.onrender.com/api`
+- Endpoint `https://stmarkfx.onrender.com/api`
 - Method: `POST`
 - Description: Create a new person in the database
 - Request Body: JSON data containing a value "name" and the name of the person.
@@ -49,20 +49,20 @@ Before you begin, make sure you have the following requirements and dependencies
 ### Read
 
 1. 
-- Endpoint `https://hngxproject2.onrender.com/api`
+- Endpoint `https://stmarkfx.onrender.com/api`
 - Method: `GET`
 - Description: This endpoint is for reading all the persons in the database.
 - Response: JSON response with the resource data.
 
 2. 
-- Endpoint `https://hngxproject2.onrender.com/api/:_id`
+- Endpoint `https://stmarkfx.onrender.com/api/:_id`
 - Method: `GET`
 - Description: Retrieve details of a specific person by their id.
 - Response: JSON response with the resource data.
 
 ### Update
 
-- Endpoint `https://hngxproject2.onrender.com/api/:_id`
+- Endpoint `https://stmarkfx.onrender.com/api/:_id`
 - Method: `PUT`
 - Description: Update an existing person by its ID.
 - Request Body: JSON data containing the updated name of the person.
@@ -70,7 +70,7 @@ Before you begin, make sure you have the following requirements and dependencies
 
 ### Delete
 
-- Endpoint `https://hngxproject2.onrender.com/api/:_id`
+- Endpoint `https://stmarkfx.onrender.com/api/:_id`
 - Method: `DELETE`
 - Description: Delete a person from the database by id.
 - Response: JSON response indicating the person with the id has been deleted.
@@ -80,7 +80,7 @@ Before you begin, make sure you have the following requirements and dependencies
 ### Create a new person
 
 **HTTP Method:** POST
-**Endpoint:** `https://hngxproject2.onrender.com/api`
+**Endpoint:** `https://stmarkfx.onrender.com/api`
 **Request Body:**
 ```json
 {
@@ -100,7 +100,7 @@ Before you begin, make sure you have the following requirements and dependencies
 ### Retrieve a List of Persons
 
 **HTTP Method:** GET
-**Endpoint:** `https://hngxproject2.onrender.com/api`
+**Endpoint:** `https://stmarkfx.onrender.com/api`
 **Response:**
 
 ```json
@@ -116,7 +116,7 @@ Before you begin, make sure you have the following requirements and dependencies
 ### Retrieve a Person by id
 
 **HTTP Method:** GET
-**Endpoint:** `https://xxxxxxx.onrender.com/persons/650503d41336f0a432d97974`
+**Endpoint:** `https://stmark.onrender.com/api/650503d41336f0a432d97974`
 **Response:**
 ```json
 
@@ -131,7 +131,7 @@ Before you begin, make sure you have the following requirements and dependencies
 ### Update a Person by id
 
 **HTTP Method:** PUT
-**Endpoint:** `https://hngxproject2.onrender.com/api/650503d41336f0a432d97974`
+**Endpoint:** `https://stmarkfx.onrender.com/api/650503d41336f0a432d97974`
 **Request Body:**
 ```json
 {
@@ -150,7 +150,7 @@ Before you begin, make sure you have the following requirements and dependencies
 ```
 
 **HTTP Method:** DELETE
-**Endpoint:** `https://xxxxxxxxx.onrender.com/api/650503d41336f0a432d97974`
+**Endpoint:** `https://stmarkfx.onrender.com/api/650503d41336f0a432d97974`
 **Response:**
 ```json
 
