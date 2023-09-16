@@ -14,7 +14,9 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^7.5.2",
-    "node": "^14.20.1"
+    "node": "^14.20.1",
+    "yan": "^0.0.1",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
