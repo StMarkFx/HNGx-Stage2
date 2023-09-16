@@ -1,5 +1,5 @@
 {
-  "name": "Node API",
+  "name": "stage2",
   "version": "1.0.0",
   "description": "Stage 2 Task. A simple CRUD API.",
   "main": "index.js",
