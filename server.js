@@ -9,12 +9,9 @@ app.use(express.urlencoded({extended: false}))
 
 //routes
  app.get('/', (req, res) => {
-    res.send('Hello NODE API')
+    res.send('Hello CRUD API')
  })
-
- app.get('/blog', (req, res) => {
-    res.send('Hello BLOG. My name is St. Mark')
- }) 
+ 
 
 app.get('/api', async(req, res) => {
     try {

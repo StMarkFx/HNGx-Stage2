@@ -2,7 +2,7 @@
   "name": "stage2",
   "version": "1.0.0",
   "description": "Stage 2 Task. A simple CRUD API.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "node server.js",

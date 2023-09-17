@@ -23,6 +23,7 @@ In software development, CRUD operations are fundamental actions used to manipul
 Before you begin, make sure you have the following requirements and dependencies: 
 - Node.js
 - MongoDB
+- Express
 
 ### Installation
 
@@ -116,7 +117,7 @@ Before you begin, make sure you have the following requirements and dependencies
 ### Retrieve a Person by id
 
 **HTTP Method:** GET
-**Endpoint:** `https://stmark.onrender.com/api/650503d41336f0a432d97974`
+**Endpoint:** `https://stmarkfx.onrender.com/persons/650503d41336f0a432d97974`
 **Response:**
 ```json
 
